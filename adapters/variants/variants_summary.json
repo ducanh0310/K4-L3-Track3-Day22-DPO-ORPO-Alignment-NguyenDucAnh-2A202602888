@@ -1,0 +1,30 @@
+{
+  "dpo": {
+    "eval_reward_accuracy": 0.62,
+    "eval_chosen_reward": 0.08845996452553663,
+    "eval_rejected_reward": 0.06590371972182765,
+    "mean_output_chars": 330.3,
+    "diagnosis": "INTENDED"
+  },
+  "rpo": {
+    "eval_reward_accuracy": 0.62,
+    "eval_chosen_reward": 0.558291887640953,
+    "eval_rejected_reward": 0.5229412992298603,
+    "mean_output_chars": 331.5,
+    "diagnosis": "INTENDED"
+  },
+  "dpo_norm": {
+    "eval_reward_accuracy": 0.65,
+    "eval_chosen_reward": -0.1853710024058819,
+    "eval_rejected_reward": -0.19287914730608463,
+    "mean_output_chars": 329.0,
+    "diagnosis": "LIKELIHOOD DISPLACEMENT"
+  },
+  "ld_dpo": {
+    "eval_reward_accuracy": 0.58,
+    "eval_chosen_reward": -0.13425742581486702,
+    "eval_rejected_reward": -0.15972780695185065,
+    "mean_output_chars": 332.2,
+    "diagnosis": "LIKELIHOOD DISPLACEMENT"
+  }
+}
